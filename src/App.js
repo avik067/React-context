@@ -17,23 +17,26 @@ class App extends Component {
 
   toggleShowContent = val => {
     console.log(val)
-    this.setState({
+    this.setState(pre => ({
+      ...pre,
       showContent: !val,
-    })
+    }))
   }
 
   toggleShowLeftNavbar = val => {
     console.log(val)
-    this.setState({
+    this.setState(pre => ({
+      ...pre,
       showLeftNavbar: !val,
-    })
+    }))
   }
 
   toggleShowRightNavbar = val => {
     console.log(val)
-    this.setState({
+    this.setState(pre => ({
+      ...pre,
       showRightNavbar: !val,
-    })
+    }))
   }
 
   render() {
@@ -50,7 +53,9 @@ class App extends Component {
             onToggleShowRightNavbar: this.toggleShowRightNavbar,
           }}
         >
-          <ConfigurationController />
+          <div className="selector-container">
+            <ConfigurationController />
+          </div>
           <Layout />
         </ConfigurationContext.Provider>
       </div>

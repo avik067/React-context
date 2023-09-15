@@ -3,7 +3,7 @@ import ConfigurationContext from '../../context/ConfigurationContext'
 import './index.css'
 
 const ConfigurationController = () => {
-  console.log('This selection component')
+  console.log()
 
   return (
     <ConfigurationContext.Consumer>
@@ -37,6 +37,8 @@ const ConfigurationController = () => {
             val: showRightNavbar,
           },
         ]
+
+        console.log(dataList)
 
         return (
           <div className="top">

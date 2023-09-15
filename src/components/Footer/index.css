@@ -1,1 +1,5 @@
-/* Write your CSS here */
+.footer {
+  background-color: #e2e8f0;
+  align-self: stretch;
+  padding: 10px;
+}

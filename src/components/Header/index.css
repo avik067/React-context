@@ -1,1 +1,5 @@
-/* Write your CSS here */
+.header {
+  background-color: #e2e8f0;
+  padding: 10px;
+  align-self: stretch;
+}

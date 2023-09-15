@@ -1,1 +1,33 @@
-/* Write your CSS here */
+.middle {
+  padding: 5px;
+  height: 60%;
+}
+.nav-left {
+  margin: 5px;
+  padding: 20px;
+  background-color: #e2e8f0;
+  width: 30%;
+  align-self: stretch;
+}
+.content {
+  margin: 5px;
+  padding: 20px;
+  width: 40%;
+  background-color: #f1f5f9;
+  align-self: stretch;
+}
+.nav-right {
+  margin: 5px;
+  padding: 20px;
+  background-color: #e2e8f0;
+  width: 30%;
+  align-self: stretch;
+}
+
+.small-heading {
+  font-size: 12px;
+}
+.box {
+  border: 1px solid #475569;
+  padding: 30px;
+}
